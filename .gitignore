@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Données importées par les utilisateurs (base DEX uploadée en session)
+data/*
+!data/.gitkeep
+
+# Fichiers temporaires Office / OS
+~$*
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
